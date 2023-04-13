@@ -1,0 +1,112 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="elcssbro.css">
+    <title>elcatalogo</title>
+</head>
+<body bgcolor="aqua">
+
+<center>
+    <br>
+    <br>
+    <h1>VENTA DE ZAPATOS DEPORTIVOS NIKE</h1></center>
+
+
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen1.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE AIR 97</p>
+                    <span class="precio">Q 1.300</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen2.png" alt="">
+                    </div>
+                    <p class="descripcion" id>NIKE RUNNING TERRA </p>
+                    <span class="precio">Q 2.800</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen3.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE WINFLO 8
+                    </p>
+                    <span class="precio">Q 3.500</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen4.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE LOW-TOP</p>
+                    <span class="precio">Q 3.800</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen5.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE BLAZER 97</p>
+                    <span class="precio">Q 930</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen6.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE LEGEND ESENTIAL</p>
+                    <span class="precio">Q 2.000</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen7.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE AIR ZOOM</p>
+                    <span class="precio">Q 2.897</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="imagen8.png" alt="">
+                    </div>
+                    <p class="descripcion">NIKE TERRA KING</p>
+                    <span class="precio">Q 5.800</span>
+                </div>
+            </div> 
+        </div>
+    
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">Q 730</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">que talla vas a llevar</label>
+                        <select name="" id="">
+                            <option value="">20</option>
+                            <option value="">27</option>
+                            <option value="">44</option>
+                            <option value="">45</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO :) </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="primeravesconeljs.js"></script>
+</body>
+</html>
